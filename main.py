@@ -12,6 +12,8 @@ Main cli or app entry point
 # @click.argument("b", type=int)
 # def add_cli(a, b):
 #     click.echo(add(a, b))
+def f():
+    pass
 
 
 if __name__ == "__main__":
