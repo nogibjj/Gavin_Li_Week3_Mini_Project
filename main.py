@@ -13,6 +13,9 @@ def generate_desc_stats(path: "str"):
 def generate_visual_for_titanic():
     df = pl.read_csv("./resources/train.csv", ignore_errors=True)
     plt.hist(df.get_column("Survived"))
+    plt.title("Histogram of Survived")
+    plt.xlabel("Survived")
+    plt.ylabel("Count")
     plt.show()
 
 
