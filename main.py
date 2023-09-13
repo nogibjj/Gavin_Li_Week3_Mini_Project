@@ -2,21 +2,16 @@
 Main cli or app entry point
 """
 
-# from mylib.calculator import add
-# import click
+import polars as pl
 
-#var=1;var=2
+def generate_desc_stats(path: "str"):
+    df = pl.read_csv(path)
+    print(df)
 
-# @click.command("add")
-# @click.argument("a", type=int)
-# @click.argument("b", type=int)
-# def add_cli(a, b):
-#     click.echo(add(a, b))
-def f():
-    pass
 
 
 if __name__ == "__main__":
     # pylint: disable=no-value-for-parameter
     # add_cli()
-    pass
+    path = "./resources/train.csv"
+    generate_desc_stats(path)
