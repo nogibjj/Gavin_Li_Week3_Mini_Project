@@ -8,9 +8,9 @@ FROM mcr.microsoft.com/vscode/devcontainers/universal:2-focal
 # RUN apt-get update && apt-get -y install --no-install-recommends \
 #    python3.10-venv \
 #    gcc 
-RUN apt-get update && apt-get -y install \
-   python3.10 gcc
-RUN apt install -y python3.10-venv
+RUN apt-get update && apt-get -y install --no-install-recommends \
+   python3.8-venv \
+   gcc
    
 ARG USER="codespace"
 ARG VENV_PATH="/home/${USER}/venv"
