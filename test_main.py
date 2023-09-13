@@ -7,4 +7,5 @@ Test goes here
 from main import f
 
 def test_f():
+    f()
     assert 1 == 1
