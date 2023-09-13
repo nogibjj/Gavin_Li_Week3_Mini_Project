@@ -7,6 +7,7 @@ import polars as pl
 def generate_desc_stats(path: "str"):
     df = pl.read_csv(path)
     print(df)
+    return df.median()
 
 
 
