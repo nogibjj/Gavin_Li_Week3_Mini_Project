@@ -15,5 +15,5 @@ uvicorn
 numpy
 pandas
 matplotlib
-seaborns
+seaborn
 
