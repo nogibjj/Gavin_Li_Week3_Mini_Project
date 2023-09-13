@@ -12,7 +12,7 @@ def generate_desc_stats(path: "str"):
 
 def generate_visual_for_titanic():
     df = pl.read_csv("./resources/train.csv", ignore_errors=True)
-    plt.histogram(df.get_column("Survived"))
+    plt.hist(df.get_column("Survived"))
     plt.show()
 
 
