@@ -9,7 +9,7 @@ FROM mcr.microsoft.com/vscode/devcontainers/universal:2-focal
 #    python3.10-venv \
 #    gcc 
 RUN apt-get update && apt-get -y install \
-   python3.10-venv \
+   python3.10 python3.10-venv \
    gcc 
    
 ARG USER="codespace"
