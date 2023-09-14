@@ -2,30 +2,9 @@
 
 ## Template
 
-1. First thing to do on launch is to open a new shell and verify virtualenv is sourced.
+For this week's mini project, I used a template that is slightly different than the one used for the first two weeks.
 
-Things included are:
-
-* `Makefile`
-
-* `Pytest`
-
-* `pandas`
-
-* `Ruff`:  
-
-Run `make lint` which runs `ruff check`.  You can find out more info on [Ruff here](https://github.com/astral-sh/ruff).
-
-* `Dockerfile`
-
-* `GitHub copilot`
-
-* `jupyter` and `ipython` 
-
-* A base set of libraries for devops and web
-
-* `githubactions`
-
+This template lints code using `ruff` instead of `pylint`.
 
 ## Descriptive Statistics using Python Polars
 
@@ -37,7 +16,7 @@ Run `make lint` which runs `ruff check`.  You can find out more info on [Ruff he
 
 3. Generated histogram for variable `Survived` in the `Titanic` dataset using `matplotlib.pyplot`.
 
-
+![Histogram](./resources/hist.png)
 
 ## References
 
