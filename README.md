@@ -41,7 +41,7 @@ Run `make lint` which runs `ruff check`.  You can find out more info on [Ruff he
 
 ## References
 
-![Professor Noah's ruff template](https://github.com/nogibjj/python-ruff-template)
+[Professor Noah's ruff template](https://github.com/nogibjj/python-ruff-template)
 
 
 
