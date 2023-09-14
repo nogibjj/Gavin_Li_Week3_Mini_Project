@@ -1,9 +1,6 @@
-[![CI](https://github.com/nogibjj/python-ruff-template/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/python-ruff-template/actions/workflows/cicd.yml)
-## Template for Python projects with RUFF linter
+# IDS 706 Data Engineering Week 3 Mini Project
 
-![1 15_rust_built_python_tools](https://github.com/nogibjj/python-ruff-template/assets/58792/db5f7bda-a977-4c67-acbe-a70fe034fbdf)
-
-
+## Template
 
 1. First thing to do on launch is to open a new shell and verify virtualenv is sourced.
 
@@ -29,9 +26,22 @@ Run `make lint` which runs `ruff check`.  You can find out more info on [Ruff he
 
 * `githubactions`
 
+
+## Descriptive Statistics using Python Polars
+
+1. Read the csv file at `./resources/train.csv` using `polars.read_csv()` function
+
+2. Generated sumamry statistics for variable `Survived` in the `Titanic` dataset using `.median()`, `.mean()`, `.std()` function. The result is as follow:
+
+![Summary_stats](./resources/desc_stats.png)
+
+3. Generated histogram for variable `Survived` in the `Titanic` dataset using `matplotlib.pyplot`.
+
+
+
 ## References
 
-![1 1-function-essence-of-programming](https://github.com/nogibjj/python-ruff-template/assets/58792/f7f33cd3-cff5-4014-98ea-09b6a29c7557)
+![Professor Noah's ruff template](https://github.com/nogibjj/python-ruff-template)
 
 
 
